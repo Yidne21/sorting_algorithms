@@ -1,10 +1,8 @@
 #include<stdio.h>
-#include"sort.h"
-void bubble_sort(int *array, size_t size)
-{
-	#include "sort.h"
+#include "sort.h"
 
 /**
+ *
  * swap_ints - Swap two integers in an array.
  * @a: The first integer to swap.
  * @b: The second integer to swap.
@@ -28,10 +26,8 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, len = size;
 	bool bubbly = false;
-
 	if (array == NULL || size < 2)
 		return;
-
 	while (bubbly == false)
 	{
 		bubbly = true;
@@ -47,5 +43,3 @@ void bubble_sort(int *array, size_t size)
 		len--;
 	}
 }
-}
-
